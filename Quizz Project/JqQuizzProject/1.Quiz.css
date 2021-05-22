@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Itim&display=swap');
+
+*{
+    font-family: 'Itim', cursive;
+    color:rgb(241, 239, 219);
+    font-weight: 200;
+}
+
+body{
+    
+    background: url(https://blog.eduonix.com/wp-content/uploads/2018/09/JavaScript-Functions-696x500.jpg) no-repeat center center fixed;
+    background-repeat:no-repeat;
+    background-size: cover;
+    display: block;
+    position: relative;
+    width: 100%;
+    margin-top: 15px;
+    backdrop-filter: blur(7px);
+    background-color: #1820301c;
+    font-size: 20px;
+}
+
+.container{
+    width: 65%;
+    overflow: auto;
+    padding: 25px;
+    margin: 20px auto;
+    background-color: #1551490d;
+}
+
+
+header{
+    text-align: center;
+    border-bottom: 2px double white;
+}
+
+header h1{
+    margin: 0;
+    padding: 0;
+    color: rgb(165, 214, 253);
+}
+
+header p{
+    padding: 0;
+    margin-top: 5px;
+}
+
+section{
+    min-height: 400px;
+}
+
+footer p{
+   color: rgb(21, 179, 179);
+}
+
+input[type='submit']{
+    padding: 10px 5px;
+    color: #0fa6ac;
+    background-color:rgb(247, 246, 236);
+    border-radius: 10px;
+    font-size: 20px;
+    cursor:pointer;
+}
+
+#results h3{
+    background-color: #021d34b0;
+    padding: 10px;
+    margin: 15px 0;
+    border-radius: 5px;
+    color: rgb(213, 241, 241);
+}
+
+input{
+ margin: 10px 20px;
+}
